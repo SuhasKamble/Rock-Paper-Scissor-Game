@@ -9,7 +9,6 @@
 body{
     font-family: "Asap", sans-serif;
     background-color: #25272E;
-    padding: 0 10px;
 }
 
 header{
@@ -60,11 +59,13 @@ header h1{
 
 .result > p{
     text-align: center;
+    padding: 0 10px;
 }
 
 .choices{
     text-align: center;
     margin-top: 40px;
+    padding: 0 10px;
 }
 
 .choice{

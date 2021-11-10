@@ -49,7 +49,6 @@ function draw(userChoice, computerChoice){
     const smallUser = "user".fontsize(3).sub();
     const smallcomp = "comp".fontsize(3).sub();
     const borderDiv = document.getElementById(userChoice);
-    userScore++;
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUser} equals to ${convertToWord(computerChoice)}${smallcomp}. It's a draw!😆`;
     borderDiv.classList.add('grey-glow');
     setTimeout(()=>borderDiv.classList.remove('grey-glow'),2000)
